@@ -6,7 +6,7 @@ import pandas as pd
 def load_rr():
     # read text from highyield/data/RR.csv
     # split string into list of strings
-    rr = files("/highyield/data").joinpath("RR.csv").read_text().split(sep="\n")
+    rr = files("data").joinpath("RR.csv").read_text().split(sep="\n")
 
     #convert list of strings to df
     rr = pd.DataFrame(data=rr)

@@ -1,25 +1,6 @@
-[project]
-name = "highyield"
-version = "1.0.0"
-authors = [
-    {name = "KF", email = "kenfv1@outlook.com"}
-]
-description = "Collection of high-yield functions intended to simplify and automate specific tasks."
-readme = "README.md"
-requires-python = ">=3.8"
-
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-    "Operating System :: OS Independent"
-]
-
-[tool.setuptools]
-package-data = {"rr" = ["highyield/data/RR.csv"]}
-
-[tool.setuptools.packages.find]
-where = ["highyield"]
-
 [build-system]
-requires = ["setuptools>=43.0.0", "wheel"]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
 build-backend = "setuptools.build_meta"
