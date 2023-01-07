@@ -98,7 +98,7 @@ def df_tts(df_name,lower_bound=0,upper_bound=None):
     engine.runAndWait()
     
 #df_tts_save
-def df_tts(df_name,save_name,lower_bound=0,upper_bound=None):
+def df_tts_save(df_name,save_name,lower_bound=0,upper_bound=None):
     """Saves text-to speech from user imported dataframe. By default, the function will use all rows from the specified spreadsheet.
 
     Args:

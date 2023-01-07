@@ -5,7 +5,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory/"README.md").read_text()
 
 setup(name="highyield",
-      version="1.0.4",
+      version="1.0.5",
       description="Collection of high-yield functions intended to simplify and automate specific tasks.",
       long_description=long_description,
       long_description_content_type="text/markdown",
@@ -13,8 +13,7 @@ setup(name="highyield",
       author="KF",
       author_email="kenfv1@outlook.com",
       license="GPLv3",
-      package_data={"highyield": ["data/*.csv"]},
-      packages=find_packages(where="highyield"),
+      package_data={"highyield/data": ["data/*.csv"]},
       include_package_data=True,
       python_requires=">=3.8",
       classifiers=[
