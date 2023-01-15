@@ -5,7 +5,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory/"README.md").read_text()
 
 setup(name="highyield",
-      version="1.0.5",
+      version="1.0.6",
       description="Collection of high-yield functions intended to simplify and automate specific tasks.",
       long_description=long_description,
       long_description_content_type="text/markdown",
@@ -25,6 +25,7 @@ setup(name="highyield",
         "pandas",
         "pyttsx3",
         "docx2pdf",
-        "pypdf"
+        "pypdf",
+        "re"
       ],
       zip_safe=False)
