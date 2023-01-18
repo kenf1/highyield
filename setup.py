@@ -5,7 +5,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory/"README.md").read_text()
 
 setup(name="highyield",
-      version="1.0.7",
+      version="1.0.8",
       description="Collection of high-yield functions intended to simplify and automate specific tasks.",
       long_description=long_description,
       long_description_content_type="text/markdown",

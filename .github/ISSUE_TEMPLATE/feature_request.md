@@ -7,8 +7,8 @@ assignees: kenf1
 
 ---
 
-**Description of feature request**
+**Description of feature request:**
 A clear and concise description of what the feature request is.
 
-**Suggestions on implementation**
+**Suggestions on implementation:**
 Provide any ideas on how to implement feature into package.

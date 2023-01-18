@@ -7,14 +7,14 @@ assignees: kenf1
 
 ---
 
-**Describe the bug**
+**Describe the bug:**
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+**To Reproduce:**
 Steps to reproduce the behavior:
 1. 
 
-**Screenshots**
+**Screenshots:**
 If applicable, add screenshots to help explain your problem.
 
 **Version information:**
@@ -22,5 +22,5 @@ If applicable, add screenshots to help explain your problem.
  - Python version:
  - IDE and version:
 
-**Additional context**
+**Additional context:**
 Add any other context about the problem here.
