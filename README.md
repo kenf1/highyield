@@ -1,4 +1,4 @@
-## highyield `<a href="https://kenf1.github.io/Rendered/highyield%20Documentation/"><img src="https://raw.githubusercontent.com/kenf1/Rendered/main/Hex_Sticker/High-Yield.png" align="right" height="138.5" />``</a>`
+## highyield <a href="https://kenf1.github.io/Rendered/highyield%20Documentation/"><img src="https://raw.githubusercontent.com/kenf1/Rendered/main/Hex_Sticker/High-Yield.png" align="right" height="138.5" /></a>
 
 [![PyPI](https://img.shields.io/pypi/v/highyield.svg)](https://pypi.org/project/highyield) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://www.gnu.org/licenses/gpl-3.0) [![](https://img.shields.io/badge/-Documentation-yellow)](https://kenf1.github.io/Rendered/highyield%20Documentation/)
 
