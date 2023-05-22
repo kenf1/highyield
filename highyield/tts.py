@@ -7,10 +7,10 @@ def spreadsheet_tts(file_name,lower_bound=0,upper_bound=None,header=None):
     """Text-to-speech from rows in specified spreadsheet (`.csv` or `.xls*`) file. By default, the function will use all rows from the specified spreadsheet.
 
     Args:
-        file_name (_type_): Full path to spreadsheet file. Will see error if file doesn't match either format.
+        file_name (str): Full path to spreadsheet file. Will see error if file doesn't match either format.
         lower_bound (int, optional): Which row should TTS engine start from? Defaults to 0 (first row).
-        upper_bound (_type_, optional): Which row should TTS engine end? Defaults to None (last row).
-        header (_type_, optional): Does header exist in spreadsheet file? Defaults to None.
+        upper_bound (int, optional): Which row should TTS engine end? Defaults to None (last row).
+        header (str, optional): Does header exist in spreadsheet file? Defaults to None.
     """
     
     #will choose whether to use read_csv or read_excel, throws error if either can't read+import
@@ -40,11 +40,11 @@ def spreadsheet_tts_save(file_name,save_name,lower_bound=0,upper_bound=None,head
     """Saves text-to-speech output from rows in specified spreadsheet (`.csv` or `.xls*`) file. Similar to `spreadsheet_tts` but saves output instead. By default, the function will use all rows from the specified spreadsheet.
 
     Args:
-        file_name (_type_): Full path to spreadsheet file. Will see error if file doesn't match either format.
-        save_name (_type_): Full path and extension for audio file output from this function.
+        file_name (str): Full path to spreadsheet file. Will see error if file doesn't match either format.
+        save_name (str): Full path and extension for audio file output from this function.
         lower_bound (int, optional): Which row should TTS engine start from? Defaults to 0 (first row).
-        upper_bound (_type_, optional): Which row should TTS engine end? Defaults to None (last row).
-        header (_type_, optional): Does header exist in spreadsheet file? Defaults to None.
+        upper_bound (int, optional): Which row should TTS engine end? Defaults to None (last row).
+        header (str, optional): Does header exist in spreadsheet file? Defaults to None.
     """
     
     #will choose whether to use read_csv or read_excel, throws error if either can't read+import
@@ -76,9 +76,9 @@ def df_tts(df_name,lower_bound=0,upper_bound=None):
     """Text to speech from user imported dataframe. By default, the function will use all rows from the specified spreadsheet.
 
     Args:
-        df_name (_type_): Name of dataframe to pass into this function.
+        df_name (str): Name of dataframe to pass into this function.
         lower_bound (int, optional): Which row should TTS engine start from? Defaults to 0 (first row).
-        upper_bound (_type_, optional): Which row should TTS engine end? Defaults to None (last row).
+        upper_bound (int, optional): Which row should TTS engine end? Defaults to None (last row).
     """
     
     #rm NaN rows
@@ -102,10 +102,10 @@ def df_tts_save(df_name,save_name,lower_bound=0,upper_bound=None):
     """Saves text-to speech from user imported dataframe. By default, the function will use all rows from the specified spreadsheet.
 
     Args:
-        df_name (_type_): Name of dataframe to pass into this function.
-        save_name (_type_): Full path and extension for audio file output from this function.
+        df_name (str): Name of dataframe to pass into this function.
+        save_name (str): Full path and extension for audio file output from this function.
         lower_bound (int, optional): Which row should TTS engine start from? Defaults to 0 (first row).
-        upper_bound (_type_, optional): Which row should TTS engine end? Defaults to None (last row).
+        upper_bound (int, optional): Which row should TTS engine end? Defaults to None (last row).
     """
     
     #rm NaN rows

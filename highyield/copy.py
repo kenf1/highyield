@@ -8,7 +8,7 @@ def automate_copy(ref_file,source_col="source",dest_col="dest"):
     """Use `.csv` or `.xls*` file to automate process of copying files from source path to destination path. Either file must have header. Copies file data and permissions.
 
     Args:
-        ref_file (_type_): Separate `.csv` or `.xls*` file containing full path of source & destination to pass into `shutil.copy` function.
+        ref_file (str): Separate `.csv` or `.xls*` file containing full path of source & destination to pass into `shutil.copy` function.
         source_col (str, optional): Source column. Defaults to "source".
         dest_col (str, optional): Destination column. Defaults to "dest".
     """
@@ -43,7 +43,7 @@ def automate_copy2(ref_file,source_col="source",dest_col="dest"):
     """Use `.csv` or `.xls*` file to automate process of copying files from source path to destination path. Either file must have header. Copies file data, permissions, and metadata.
 
     Args:
-        ref_file (_type_): Separate `.csv` or `.xls*` file containing full path of source & destination to pass into `shutil.copy` function.
+        ref_file (str): Separate `.csv` or `.xls*` file containing full path of source & destination to pass into `shutil.copy` function.
         source_col (str, optional): Source column. Defaults to "source".
         dest_col (str, optional): Destination column. Defaults to "dest".
     """
@@ -78,7 +78,7 @@ def automate_copyfile(ref_file,source_col="source",dest_col="dest"):
     """Use `.csv` or `.xls*` file to automate process of copying files from source path to destination path. Either file must have header. Files are copied without permissions and metadata.
 
     Args:
-        ref_file (_type_): Separate `.csv` or `.xls*` file containing full path of source & destination to pass into `shutil.copy` function.
+        ref_file (str): Separate `.csv` or `.xls*` file containing full path of source & destination to pass into `shutil.copy` function.
         source_col (str, optional): Source column. Defaults to "source".
         dest_col (str, optional): Destination column. Defaults to "dest".
     """

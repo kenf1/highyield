@@ -7,8 +7,8 @@ def pdf_extract_single(file_path,page_num):
     """Extract text from single page of pdf.
 
     Args:
-        file_path (_type_): Full path to pdf file.
-        page_num (_type_): Page to extract text from. 0 = page 1.
+        file_path (str): Full path to pdf file.
+        page_num (int): Page to extract text from. 0 = page 1.
     """
     
     #import pdf
@@ -25,7 +25,7 @@ def pdf_extract_all(file_path):
     """Extract text from all pages of pdf.
 
     Args:
-        file_path (_type_): Full path to pdf file.
+        file_path (str): Full path to pdf file.
     """
     
     #import pdf
@@ -44,9 +44,9 @@ def pdf_extract_range(file_path,lower_bound,upper_bound):
     """Extract text from range of pages in pdf.
 
     Args:
-        file_path (_type_): Full path to pdf file.
-        lower_bound (_type_): Page to start extracting from. 0 = page 1.
-        upper_bound (_type_): Page to stop extracting from. Text from this page and afterwards will not be included.
+        file_path (str): Full path to pdf file.
+        lower_bound (int): Page to start extracting from. 0 = page 1.
+        upper_bound (int): Page to stop extracting from. Text from this page and afterwards will not be included.
     """
     
     #import pdf

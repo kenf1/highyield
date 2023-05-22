@@ -8,9 +8,9 @@ def csv2xlsx(target_dir,current_name,header="infer"):
     """Function to convert `.csv` files to `.xlsx`. Slightly modified from `xlsx2csv` function.
 
     Args:
-        target_dir (_type_): Directory target file is located in. Will also be where generated `.xlsx` will be saved.
-        current_name (_type_): Name of `.csv` file.
-        header (str, optional): Include header row? Defaults to "infer" (makes best guess).
+        target_dir (str): Directory target file is located in. Will also be where generated `.xlsx` will be saved.
+        current_name (str): Name of `.csv` file.
+        header (bool, optional): Include header row? Defaults to "infer" (makes best guess).
     """
     
     #change directory
@@ -37,11 +37,11 @@ def xlsx2csv(target_dir,current_name,sheet_name=0,sep=",",index=None,header=True
     """Function to convert `.xls*` files to `.csv`. Slightly modified from `csv2xlsx` function.
 
     Args:
-        target_dir (_type_): Directory target file is located in. Will also be where generated `.csv` will be saved.
-        current_name (_type_): Name of `.xls*` file.
-        sheet_name (_type_): Name of sheet. Defaults to 0 (1st sheet).
+        target_dir (str): Directory target file is located in. Will also be where generated `.csv` will be saved.
+        current_name (str): Name of `.xls*` file.
+        sheet_name (int, str): Name of sheet. Defaults to 0 (1st sheet).
         sep (str, optional): Separator to use for `.csv`. Defaults to ",".
-        index (_type_, optional): Write row names? Defaults to None.
+        index (str, optional): Write row names? Defaults to None.
         header (bool, optional): Include header row? Defaults to True.
     """
     
@@ -69,8 +69,8 @@ def word2pdf(target_dir,current_name):
     """Function to convert `.doc*` files to `.pdf`. Might need to grant access to certain files/folders (dependent on operating system).
 
     Args:
-        target_dir (_type_): Directory target file is located in. Will also be where generated `.pdf` will be saved.
-        current_name (_type_): Name of `.doc*` file.
+        target_dir (str): Directory target file is located in. Will also be where generated `.pdf` will be saved.
+        current_name (str): Name of `.doc*` file.
     """
 
     #change directory

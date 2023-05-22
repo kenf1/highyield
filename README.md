@@ -28,7 +28,7 @@ The table below lists the dependencies for each module within this package:
 
 | Module    | Packages             |
 | --------- | -------------------- |
-| basics    | os                   |
+| basics    | os, requests         |
 | converter | os, pandas, docx2pdf |
 | copy      | os, shutil, pandas   |
 | create    | os, shutil           |

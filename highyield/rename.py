@@ -5,10 +5,10 @@ import re
 def bulk_rename(target_path,ext,new_name,search_term="[A-z0-9]*"):
     """Custom function to bulk rename files matching criteria specified by regular expressions. Will automatically sort and exclude `.DS_Store` (a macOS specific file) (if present).
     Args:
-        target_path (path): Full path to target folder.
-        ext (string): File extension (`.` included).
-        new_name (string): New name for all matched files to share.
-        search_term (regex): Name of files to include (can use regex), default is "[A-z0-9]*" to include all files inside target folder.
+        target_path (str): Full path to target folder.
+        ext (str): File extension (`.` included).
+        new_name (str): New name for all matched files to share.
+        search_term (str, regex): Name of files to include (can use regex), default is "[A-z0-9]*" to include all files inside target folder.
     """
     
     #list all files in target_path + sort in ascending order
