@@ -26,13 +26,14 @@ python3 -m pip install highyield
 
 The table below lists the dependencies for each module within this package:
 
-| Module    | Packages             |
-| --------- | -------------------- |
-| basics    | os, requests         |
-| converter | os, pandas, docx2pdf |
-| copy      | os, shutil, pandas   |
-| create    | os, shutil           |
-| imports   | importlib, pandas    |
-| pdf       | os, pypdf            |
-| rename    | os, re               |
-| tts       | pyttsx3, pandas      |
+|Module|Module description|Dependencies|
+|---|---|---|
+|basics|Automation tasks|os, requests|
+|converter|Convert from 1 file format to another|os, pandas, docx2pdf|
+|copy|Copy & paste local files|os, shutil, pandas|
+|create|Create folder(s) + structure from template|os, shutil|
+|ds|Data Science|seaborn|
+|imports|Import packaged files|importlib, pandas|
+|pdf|Work with pdf files|os, pypdf|
+|rename|Automate renaming files|os, re|
+|tts|Text to speech|pyttsx3, pandas|

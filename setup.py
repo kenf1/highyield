@@ -5,7 +5,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory/"README.md").read_text()
 
 setup(name="highyield",
-      version="1.1.0",
+      version="1.1.1",
       description="Collection of high-yield functions intended to simplify and automate specific tasks.",
       long_description=long_description,
       long_description_content_type="text/markdown",
@@ -23,6 +23,7 @@ setup(name="highyield",
       ],
       install_requires=[
         "pandas",
+        "seaborn",
         "pyttsx3",
         "docx2pdf",
         "pypdf",
