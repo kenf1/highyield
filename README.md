@@ -1,6 +1,6 @@
-## highyield <a href="https://kenf1.github.io/Rendered/highyield%20Documentation/"><img src="https://raw.githubusercontent.com/kenf1/Rendered/main/Hex_Sticker/High-Yield.png" align="right" height="138.5" /></a>
+## highyield <a href="https://vignettes.netlify.app/highyield"><img src="https://vignettes.netlify.app/hexsticker/highyield.png" align="right" height="138.5" /></a>
 
-[![PyPI](https://img.shields.io/pypi/v/highyield.svg)](https://pypi.org/project/highyield) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://www.gnu.org/licenses/gpl-3.0) [![](https://img.shields.io/badge/-Documentation-yellow)](https://kenf1.github.io/Rendered/highyield%20Documentation/)
+[![PyPI](https://img.shields.io/pypi/v/highyield.svg)](https://pypi.org/project/highyield) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://www.gnu.org/licenses/gpl-3.0) [![](https://img.shields.io/badge/-Documentation-yellow)](https://vignettes.netlify.app/highyield)
 
 `highyield` is a Python package containing a collection of high-yield functions (grouped by modules) intended to simplify and automate specific tasks.
 
